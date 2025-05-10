@@ -293,9 +293,8 @@ def help_message(message):
                      "/info - Узнать больше о Кванториуме\n"
                      "/help - Получить помощь по использованию бота")
 
-if __name__ == "__main__":
-    print("Бот запущен...")
-    bot.infinity_polling()  # Long Polling
+
+bot.infinity_polling() 
 
 #код от ZTTao (Zenith Tech TAO)
 # Версия: 1.3.2
